@@ -1,0 +1,137 @@
+.logo{
+    border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
+    width: 60px; /* Ajusta el ancho de la imagen */
+    height: 60px; /* Ajusta la altura de la imagen */
+    margin-right: 10px; /* Añade un margen a la derecha para separar la imagen del texto */
+}
+
+ /* Estilos para el navbar*/
+.navbar {
+    background-color: #01193d; /* Cambia el color de fondo del navbar a negro */
+  }
+
+  .nav-link {
+    padding: 0.5rem 2rem; /* Ajusta el padding para aumentar la longitud de los enlaces */
+    color: rgb(255, 255, 255); /* Cambia el color de los enlaces */
+    transition: color 0.3s ease; /* Agrega una transición para el cambio de color */
+  }
+
+  .nav-link:hover {
+    color: rgb(255, 0, 0); /* Cambia el color al pasar el mouse sobre los enlaces */
+  }
+
+  .navbar-brand {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+  }
+
+  .navbar-brand-text {
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente del texto */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+  /* Estilos para el menú desplegable de productos */
+  .dropdown-menu {
+    background-color: #01193d; /* Cambia el color de fondo del menú desplegable */
+  }
+
+  .dropdown-item {
+    color: rgb(255, 255, 255); /* Cambia el color del texto de los elementos del menú desplegable */
+  }
+
+  .dropdown-item:hover {
+    background-color: rgb(255, 0, 0); /* Cambia el color de fondo al pasar el mouse sobre los elementos del menú desplegable */
+  }
+
+   
+
+   /* Estilos personalizados */
+/* Estilos personalizados */
+/* Estilos personalizados */
+/* Estilos personalizados */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(175, 54, 54, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #f8f9fa; /* Color de fondo elegante */
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .card-text {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .card-deck {
+    margin-top: 30px;
+  }
+  
+  .card-deck .card {
+    margin-bottom: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .card-deck {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
+  
+   
+   /* Estilos para el footer */
+   .footer {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 2rem 0;
+    }
+  
+    .footer .footer-logo img {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+  
+    .footer .footer-logo-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .footer .footer-logo-subtext {
+      font-size: 1rem;
+    }
+  
+    .footer .social-icons a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+  
+    .footer .social-icons a:hover {
+      color: #ff0000;
+    }
+  
+    .footer .quick-links a {
+      color: #ffffff;
+      display: block;
+      margin: 5px 0;
+      transition: color 0.3s ease;
+    }
+  
+    .footer .quick-links a:hover {
+      color: #ff0000;
+    }

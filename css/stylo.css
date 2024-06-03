@@ -1,0 +1,194 @@
+.logo{
+    border-radius: 50%; /* Hace que la imagen tenga bordes redondeados */
+    width: 60px; /* Ajusta el ancho de la imagen */
+    height: 60px; /* Ajusta la altura de la imagen */
+    margin-right: 10px; /* Añade un margen a la derecha para separar la imagen del texto */
+}
+
+ /* Estilos para el navbar*/
+.navbar {
+    background-color: #01193d; /* Cambia el color de fondo del navbar a negro */
+  }
+
+  .nav-link {
+    padding: 0.5rem 2rem; /* Ajusta el padding para aumentar la longitud de los enlaces */
+    color: rgb(255, 255, 255); /* Cambia el color de los enlaces */
+    transition: color 0.3s ease; /* Agrega una transición para el cambio de color */
+  }
+
+  .nav-link:hover {
+    color: rgb(255, 0, 0); /* Cambia el color al pasar el mouse sobre los enlaces */
+  }
+
+  .navbar-brand {
+    display: flex; /* Utiliza flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+  }
+
+  .navbar-brand-text {
+    font-size: 1.2rem; /* Ajusta el tamaño de la fuente del texto */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+  /* Estilos para el menú desplegable de productos */
+  .dropdown-menu {
+    background-color: #01193d; /* Cambia el color de fondo del menú desplegable */
+  }
+
+  .dropdown-item {
+    color: rgb(255, 255, 255); /* Cambia el color del texto de los elementos del menú desplegable */
+  }
+
+  .dropdown-item:hover {
+    background-color: rgb(255, 0, 0); /* Cambia el color de fondo al pasar el mouse sobre los elementos del menú desplegable */
+  }
+
+
+  .content-wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45vh; /* Ajusta la altura según tus necesidades */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .text-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para asegurar la legibilidad del texto */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .carousel-item {
+    height: 95vh;
+    min-height: 370px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    max-height: 625px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.carousel-caption h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel-caption .btn {
+    font-size: 1.2rem;
+    padding: 10px 22px;
+}
+
+.info-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 100px; /* Ajusta la posición del texto en dispositivos más pequeños */
+        padding-right: 20px; /* Ajusta el espaciado a la derecha del texto en dispositivos más pequeños */
+    }
+    
+    .carousel-caption h1 {
+        font-size: 2.5rem; /* Reducir el tamaño del título en dispositivos más pequeños */
+    }
+    
+    .carousel-caption p {
+        font-size: 1.2rem; /* Reducir el tamaño del párrafo en dispositivos más pequeños */
+    }
+    
+    .carousel-caption .btn {
+        font-size: 1rem; /* Reducir el tamaño del botón en dispositivos más pequeños */
+        padding: 8px 16px; /* Ajustar el espaciado del botón en dispositivos más pequeños */
+    }
+    
+    .info-section {
+        padding: 30px 0; /* Ajustar el relleno en dispositivos más pequeños */
+    }
+    
+    .info-section h2 {
+        font-size: 2rem; /* Reducir el tamaño del título en dispositivos más pequeños */
+        margin-bottom: 10px; /* Reducir el margen inferior en dispositivos más pequeños */
+    }
+    
+    .info-section p {
+        font-size: 1rem; /* Reducir el tamaño del párrafo en dispositivos más pequeños */
+        margin-bottom: 10px; /* Reducir el margen inferior en dispositivos más pequeños */
+    }
+}
+
+
+    /* Estilos para el footer */
+    .footer {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 2rem 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      }
+  
+      .footer .footer-logo img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+      }
+  
+      .footer .footer-logo-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+  
+      .footer .footer-logo-subtext {
+        font-size: 1rem;
+      }
+  
+      .footer .social-icons a {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin: 0 10px;
+        transition: color 0.3s ease;
+      }
+  
+      .footer .social-icons a:hover {
+        color: #ff0000;
+      }
+  
+      .footer .quick-links a {
+        color: #ffffff;
+        display: block;
+        margin: 5px 0;
+        transition: color 0.3s ease;
+      }
+  
+      .footer .quick-links a:hover {
+        color: #ff0000;
+      }
+    

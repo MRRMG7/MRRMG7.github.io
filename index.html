@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="./css/stylo.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/contador.js"></script>
+    <link rel="stylesheet" href="./css/contador.css">
+    <title>M&F</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./imagenes/OIG3.png" class="logo">
+        <div>
+          <div class="navbar-brand-text">M&M&F</div>
+          <div class="navbar-brand-subtext">Restaurant & Bar</div>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-house-door"></i>Inicio</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/conocenos.html"><i class="bi bi-info-circle"></i> Conócenos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-basket"></i> Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./html/vinos.html"><i class="bi bi-cup-straw"></i> Vinos</a></li>
+              <li><a class="dropdown-item" href="./html/Comidas.html"><i class="bi bi-egg-fried"></i> Comidas</a></li>
+              <li><a class="dropdown-item" href="./html/Jugos.html"><i class="bi bi-cup-straw"></i> Jugos</a></li>
+              <li><a class="dropdown-item" href="./html/frapes.html"><i class="bi bi-cup-fill"></i> Frappes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="bi bi-newspaper"></i> Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/contactanos.html"><i class="bi bi-envelope"></i> Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="visit-counter d-flex align-items-center">
+      <div class="visit-number" id="visit-count">0</div>
+      <div class="visit-text">Visits</div>
+  </div>
+
+
+
+   <!-- <div class="visit-counter d-flex align-items-center">
+      <div class="visit-number" id="visit-count">0</div>
+      <div class="visit-icon"><i class="bi bi-eye"></i></div>
+      <div class="visit-text">Visits</div>
+  </div>
+
+
+
+  <div class="visit-counter">
+      Esta página ha sido visitada <span id="visit-count">0</span> veces.
+  </div>
+    
+    <div class="powr-hit-counter" id="f1359fd6_1717433738"></div>
+        <script src="https://www.powr.io/powr.js?platform=jquery"></script>-->
+  </nav>
+
+</head>
+<body>
+<div id="fastFoodCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#fastFoodCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#fastFoodCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#fastFoodCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('./imagenes/hero-bg.jpg');">
+        <div class="carousel-caption text-left">
+            <h1>Hamburguesas Deliciosas</h1>
+            <p>Sumérgete en el sabor de nuestras hamburguesas gourmet, preparadas con carne jugosa y acompañadas de crujientes papas fritas</p>
+            
+        </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('./imagenes/comida2.jpg');">
+        <div class="carousel-caption">
+            <h1>Restaurante de Comida Rápida.</h1>
+            <p>Experimenta la comodidad y la rapidez de nuestro servicio mientras disfrutas <p>de una amplia variedad de deliciosos platos.</p></p>
+            
+        </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('./imagenes/v.png');">
+        <div class="carousel-caption text-right">
+            <h1>Disfruta Tu Comida</h1>
+            <p>Deléitate con nuestros platos preparados con los mejores ingredientes, desde carnes tiernas hasta vegetales frescos, para una experiencia culinaria inolvidable</p>
+            
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#fastFoodCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#fastFoodCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+
+<!-- Additional Information Section -->
+<section class="info-section text-center">
+    <div class="container">
+        <h2>Sobre Nosotros</h2>
+        <p>Nos dedicamos a proporcionar la mejor experiencia de comida rápida con ingredientes de alta calidad y un servicio al cliente excepcional. ¡Ven y prueba la diferencia!</p>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Nuestra Historia</h3>
+                <p>Desde nuestra fundación en 2000, hemos estado sirviendo deliciosas comidas a nuestros valiosos clientes.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Nuestro Menú</h3>
+                <p>Desde hamburguesas clásicas hasta innovadoras recetas nuevas, ofrecemos una amplia variedad de opciones para satisfacer todos los gustos.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Contacto</h3>
+                <p>¿Tienes preguntas o comentarios? Ponte en contacto con nosotros a través de nuestra página de contacto o visítanos en una de nuestras ubicaciones.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center text-md-start">
+        <div class="footer-logo">
+          <img src="./imagenes/OIG3.png" alt="Logo">
+          <div class="mt-2">
+            <div class="footer-logo-text">M&M&F</div>
+            <div class="footer-logo-subtext">Restaurant & Bar</div>
+          </div>
+        </div>
+        <div class="mt-3">
+          <p>&copy; 2024 M&M&F. Todos los derechos reservados.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <h5>Enlaces Rápidos</h5>
+        <div class="quick-links">
+          <a href="#">Inicio</a>
+          <a href="#">Conócenos</a>
+          <a href="#">Productos</a>
+          <a href="#">Noticias</a>
+          <a href="#">Contáctanos</a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <h5>Síguenos</h5>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
