@@ -1,0 +1,58 @@
+
+  .news-section {
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .news-title {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+  }
+  .news-item {
+    margin-bottom: 1.5rem;
+  }
+  .news-item-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .news-item-description {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  .sucursales-section {
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .sucursales-title {
+    font-size: 2rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+  }
+  .sucursales-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sucursal-item {
+    margin-bottom: 1rem;
+  }
+  .sucursal-item-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .sucursal-item-address {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  #map {
+    height: 400px;
+    margin-top: 2rem;
+  }
